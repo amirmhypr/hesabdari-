@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/hesabdari/',
+    base: '/-hesabdari/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
