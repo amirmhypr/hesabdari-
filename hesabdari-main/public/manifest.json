@@ -1,0 +1,45 @@
+{
+  "name": "حسابداری امیر",
+  "short_name": "حسابداری امیر",
+  "description": "سامانه هوشمند مدیریت مالی، بارنامه‌ها، ناوگان، سوخت و چک‌های صیادی",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "fa-IR",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ثبت بارنامه جدید",
+      "short_name": "بارنامه",
+      "description": "ثبت سریع کرایه و بارنامه ناوگان",
+      "url": "/?action=waybills",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "ثبت سوخت و گازوئیل",
+      "short_name": "سوخت",
+      "description": "ثبت مصرف گازوئیل و کیلومتر",
+      "url": "/?action=fuel",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "ربات تلگرام",
+      "short_name": "تلگرام",
+      "description": "ارسال گزارش به تلگرام",
+      "url": "/?action=telegram",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
