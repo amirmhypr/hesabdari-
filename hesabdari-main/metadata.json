@@ -1,0 +1,6 @@
+{
+  "name": "حسابداری امیر",
+  "description": "سامانه جامع و هوشمند حسابداری امیر: مدیریت تخصصی بارنامه‌ها و ناوگان، ثبت سوخت، وام‌ها، چک‌های صیادی، کارت‌های بانکی، اتصال به ربات تلگرام، گزارشات سود و زیان (P&L) و دستیار هوش مصنوعی",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
